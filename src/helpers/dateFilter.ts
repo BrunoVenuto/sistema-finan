@@ -4,7 +4,7 @@ import { Item } from "../types/Item";
 
 //Retorna o Ano e Mês Atual (EX: 2022-2)
 export const getCurrentMonth = () => {
-   let now = new Date;
+   let now = new Date();
    return `${now.getFullYear()}-${now.getMonth()+1}`
 }
 
